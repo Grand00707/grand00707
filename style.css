@@ -1,0 +1,19 @@
+:root{
+    --column: column;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    display:table;
+
+    height: 50px;
+    border: 1px solid #ff5555;
+}
+    .conteiner div {
+        min-width: 50px;
+        border: 1px solid #3e2fc0;
+}
